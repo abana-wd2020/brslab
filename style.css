@@ -226,3 +226,20 @@ h3 {
         padding: 30px 70px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .teamimg {
+        height: 180px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+    
+    .paragraph {
+        font-size: 14px;
+        line-height: 24px;
+        width: 250px;
+    }
+
+}
