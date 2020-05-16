@@ -169,12 +169,11 @@ h3 {
 
 #icon {
     margin-top: 50px;
-    background-color: #ddd;
 }
 
 .boxicon {
     width: 100px;
-    padding: 30px;
+    padding: 30px 80px;
 }
 
 .info-services {
@@ -186,12 +185,17 @@ h3 {
     color: #707070;
 }
 
-
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #3C3C3C;
+    padding: 100px 0 0 0;
+}
 
 
 
 /* MEDIA QUERY */
-
 
 @media screen and (max-width: 772px) {
     .nav {
@@ -205,6 +209,10 @@ h3 {
     .flex-between {
         justify-content: center;
     }  
+  
+    .boxicon{
+        padding: 30px 105px;
+    }
 }
 
 @media screen and (max-width: 614px) {
@@ -221,10 +229,7 @@ h3 {
     .box-team {
         padding: 0;
     }
-    
-    .boxicon {
-        padding: 30px 70px;
-    }
+
 }
 
 @media screen and (max-width: 320px) {
