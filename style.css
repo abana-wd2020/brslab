@@ -158,7 +158,7 @@ h3 {
 .paragraph {
     font-family: "Nunito", sans-serif;
     color: #707070;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 400px;
     font-size: 17px;
     line-height: 27px;
@@ -167,30 +167,43 @@ h3 {
 
 /* ICON */
 
-#icon {
-    margin-top: 50px;
-}
-
-.boxicon {
-    width: 100px;
-    padding: 30px 80px;
-}
-
-.info-services {
-    margin-top: 20px;
-    text-align: center;
-    font-family: "Nunito", sans-serif;
-    font-size: 15px;
-    line-height: 23px;
-    color: #707070;
-}
-
-h2{
+h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #3C3C3C;
-    padding: 100px 0 0 0;
+    padding: 80px 0 0 0;
+}
+
+#icon {
+    margin-top: 50px;
+}
+
+.boxes {
+    margin-top: 50px;
+}
+
+.boxicon {
+    width: 170px;
+    padding: 20px 80px;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3C3C3C;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.info-services {
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
 }
 
 
@@ -209,10 +222,7 @@ h2{
     .flex-between {
         justify-content: center;
     }  
-  
-    .boxicon{
-        padding: 30px 105px;
-    }
+
 }
 
 @media screen and (max-width: 614px) {
@@ -228,6 +238,11 @@ h2{
     
     .box-team {
         padding: 0;
+    }
+    
+    .info-services {
+        font-size: 15px;
+        line-height: 25px;
     }
 
 }
@@ -245,6 +260,17 @@ h2{
         font-size: 14px;
         line-height: 24px;
         width: 250px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 28px;
+        padding: 50px 0 0 0;
+    }
+
+    .info-services {
+        font-size: 14px;
+        line-height: 24px;
     }
 
 }
