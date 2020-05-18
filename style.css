@@ -185,7 +185,7 @@ h2 {
 
 .boxicon {
     width: 170px;
-    padding: 20px 80px;
+    padding: 20px 70px;
 }
 
 h5 {
@@ -210,7 +210,7 @@ h5 {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 775px) {
     .nav {
         display: none;
     }
