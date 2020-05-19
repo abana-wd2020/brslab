@@ -167,13 +167,6 @@ hr {
     padding: 0 30px;
 }
 
-h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #3C3C3C;
-}
-
 .paragraph {
     font-family: "Nunito", sans-serif;
     color: #707070;
@@ -202,6 +195,11 @@ h3 {
 .boxicon {
     width: 170px;
     padding: 20px 70px;
+}
+
+.title-services {
+    text-align: center;
+    width: 170px;
 }
 
 h5 {
@@ -237,39 +235,17 @@ h5 {
 }
 
 .box-project {
-    padding: 60px 30px;
+    padding: 60px 0;
 }
 
-.box-sx1 {
+.project-img {
     width: 420px;
     height: 300px;
     background-color: #A4BAF9;
     border-radius: 20px;
 }
 
-.box-dx {
-    width: 420px;
-    height: 300px;
-    background-color: #A4BAF9;
-    border-radius: 20px;
-}
-
-.box-sx2 {
-    width: 420px;
-    height: 300px;
-    background-color: #A4BAF9;
-    border-radius: 20px;
-}
-
-.box-project-sx1 {
-    padding: 0 30px;
-}
-
-.box-project-dx {
-    padding: 0 30px;
-}
-
-.box-project-sx2 {
+.box-text {
     padding: 0 30px;
 }
 
@@ -311,16 +287,17 @@ h5 {
         font-size: 15px;
         line-height: 25px;
     }
+    
+    .project-img {
+        width: 320px;
+        height: 250px;
+    }
 
 }
 
 @media screen and (max-width: 320px) {
     .teamimg {
         height: 180px;
-    }
-
-    h3 {
-        font-size: 25px;
     }
     
     .paragraph {
@@ -331,13 +308,18 @@ h5 {
     
     h2 {
         text-align: center;
-        font-size: 28px;
+        font-size: 30px;
         padding: 50px 0 0 0;
     }
 
     .info-services {
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .project-img {
+        width: 240px;
+        height: 200px;
     }
 
 }

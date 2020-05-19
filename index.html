@@ -57,15 +57,15 @@
     <h2 class="container flex">Our services</h2><hr>
     <div class="boxes container flex">
         <div class="boxicon flex"><img src="icon_web.svg" alt="web design icon" height="100px">
-            <h5>Web Design</h5>
+            <h5 class="title-services">Web Design</h5>
             <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
          <div class="boxicon flex"><img src="icon_ui.svg" alt="ui/ux icon" height="100px">
-             <h5>UI/UX Design</h5>
+             <h5 class="title-services">UI/UX Design</h5>
              <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
          </div>
         <div class="boxicon flex"><img src="icon_dev.svg" alt="development icon" height="100px">
-             <h5>Development</h5>
+             <h5 class="title-services">Development</h5>
              <p class="info-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
     </div>
@@ -80,24 +80,24 @@
     <h2 class="container flex">Projects</h2><hr>
     <div class="boxes-project container flex">
         <div class="box-project flex">
-            <div class="box-sx1"></div>
-                <div class="box-project-sx1">
+            <div class="project-img"></div>
+                <div class="box-text">
                     <h5>Project name</h5>
                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
         </div>
                 
         <div class="box-project flex">
-                <div class="box-project-dx">
+                <div class="box-text">
                     <h5>Project name</h5>
                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
-            <div class="box-dx"></div>
+            <div class="project-img"></div>
         </div>
                 
         <div class="box-project flex">
-                <div class="box-sx2"></div>
-                <div class="box-project-sx2">
+                <div class="project-img"></div>
+                <div class="box-text">
                     <h5>Project name</h5>
                     <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
@@ -117,7 +117,7 @@ function scrollFunction() {
     var th = window.innerHeight;
     var elem = document.getElementById("navbar");
     var nh = window.getComputedStyle(elem, null).getPropertyValue("height");
-    var diff= th - parseInt(nh); 
+    var diff = th - parseInt(nh); 
     if (document.body.scrollTop > diff || document.documentElement.scrollTop > diff) {
         elem.style.top = "0px";
   } else {
