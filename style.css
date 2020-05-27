@@ -2,9 +2,6 @@ body {
   background: #fff;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
 
 .logo-container {
   width: 100%;
@@ -326,13 +323,13 @@ footer {
     height: 100px;
 }
 
-footer p{
+footer p {
     text-align: center;
     color: white;
     font-size: 15px;
     font-family: "Nunito", sans-serif;
     padding-top: 45px;  
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /* MEDIA QUERY */
@@ -387,7 +384,7 @@ footer p{
     }
      
       footer p {
-        padding-top: 45px;
+        font-size: 12px;
     }
 }
 
@@ -420,9 +417,5 @@ footer p{
 
       .boxcontact {
         margin: 10px;
-    }
-     
-      footer p {
-        padding-top: 35px;
     }
 }
