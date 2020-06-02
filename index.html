@@ -119,9 +119,80 @@
     <div class="bgcards">
         <div class="boxes container flex">
             <div class="box-cards flex">
-                <div class="boxcard flex"></div>
-                <div class="boxcard flex"></div>
-                <div class="boxcard flex"></div>
+                <!-- FIRST CARD -->
+                <a href="#cards-section"><div id="myBtn" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                            <div class="container flex">
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social flex"><a href="https://www.facebook.com/savianoalessia"><i class="fab fa-facebook-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                <!-- SECOND CARD -->
+                <a href="#cards-section"><div id="myBtn2" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal2" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close2">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">ANTONELLA BASSO SUON O BASS</p>
+                                            <div class="container flex">
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social flex"><a href="https://www.facebook.com/tina.ramaglia"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/areshia_21"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.dribbble.com/alessiasaviano"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/alessiasaviano/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                <!-- THIRD CARD -->
+                <a href="#cards-section"><div id="myBtn3" class="boxcard flex"></div></a>
+                    <!-- The Modal -->
+                    <div id="myModal3" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close3">&times;</span>
+                                    <div class="flex">
+                                        <div class="info-user flex">
+                                            <img src="https://via.placeholder.com/200x200">
+                                            <p class="text">(Mi chiamo Virgola sono un gattino sono la stella del telefonino) chiusa parentesi chissà chi è? Se non rispondi questo non lo saprai maiiiiiiiiii</p>
+                                            <div class="container flex">
+                                                <div class="box-personal-social flex">
+                                                    <div class="personal-social flex"><a href="https://www.facebook.com/tina.ramaglia"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.instagram.com/tina.ramaglia/"><i class="fab fa-instagram-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.dribbble.com/TinaRamaglia"><i class="fab fa-dribbble-square"></i></a></div>
+                                                    <div class="personal-social flex"><a href="https://www.linkedin.com/in/tinaramaglia/"><i class="fa fa-envelope-square"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+
+
             </div>
         </div>
     </div>
@@ -157,6 +228,7 @@
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
+
 <!-- JS SCROLL NAV -->
 
 <script type="text/javascript">
@@ -176,10 +248,103 @@ function scrollFunction() {
 }
 </script>
     
+
 <!-- JS WOW -->
+
 <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
+
+
+
+<!-- POP-UP JS MODAL -->
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var card = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the card, open the modal 
+card.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+<script>
+    // Get the modal
+    var modal2 = document.getElementById("myModal2");
+    
+    // Get the button that opens the modal
+    var card2 = document.getElementById("myBtn2");
+    
+    // Get the <span> element that closes the modal
+    var span2 = document.getElementsByClassName("close2")[0];
+    
+    // When the user clicks the card, open the modal 
+    card2.onclick = function() {
+      modal2.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    }
+    </script>
+
+
+<script>
+    // Get the modal
+    var modal3 = document.getElementById("myModal3");
+    
+    // Get the button that opens the modal
+    var card3 = document.getElementById("myBtn3");
+    
+    // Get the <span> element that closes the modal
+    var span3 = document.getElementsByClassName("close3")[0];
+    
+    // When the user clicks the card, open the modal 
+    card3.onclick = function() {
+      modal3.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span3.onclick = function() {
+      modal3.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal3) {
+        modal3.style.display = "none";
+      }
+    }
+    </script>
+
 </body>
 </html>
