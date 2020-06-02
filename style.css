@@ -534,6 +534,7 @@ footer p {
 @media screen and (max-width: 415px) {
     .info-user img {
         width: 120px;
+        height: 120px;
       }
 
     .text {
