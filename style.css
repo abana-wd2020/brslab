@@ -5,16 +5,18 @@
     --clr-2: #A4BAF9;
     --clr-3: #3C3C3C;
     --clr-4: #707070;
+    --clr-5: #A4BAF9;
   
     --background: var(--clr-light);
   }
   
 @media (prefers-color-scheme: dark) {
     :root {
-        --clr-1: #A4BAF9;
+        --clr-1: #5B84F0;
         --clr-2: #5B84F0;
         --clr-3: #fff;
         --clr-4: #fff;
+        --clr-5: #A4BAF9;
     --background: var(--clr-dark);
     }
 
@@ -32,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: var(--clr-2);
+  background: var(--clr-1);
 }
 
 .arrow {
@@ -137,7 +139,7 @@ body {
 #navbar {
   z-index: 999;
   top: -70px;
-  background-color: var(--clr-2);
+  background-color: var(--clr-1);
   position: fixed;
   width: 100%;
   height: 70px;
@@ -190,7 +192,7 @@ h2 {
 }
 
 hr {
-    border: solid 3px var(--clr-2);
+    border: solid 3px var(--clr-1);
     margin-top: 12px;
     width: 75px;
 }
@@ -455,7 +457,7 @@ h5 {
 
 .boxcontact {
    margin: 20px;
-   color: var(--clr-2);
+   color: var(--clr-5);
    font-size: 50px;
 }
 
@@ -475,7 +477,7 @@ h5 {
 
 footer {
     margin-top: 100px;
-    background-color: var(--clr-2);
+    background-color: var(--clr-1);
     height: 100px;
 }
 
