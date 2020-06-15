@@ -6,6 +6,7 @@
     --clr-3: #3C3C3C;
     --clr-4: #707070;
     --clr-5: #A4BAF9;
+    --clr-6: #3C3C3C;
   
     --background: var(--clr-light);
   }
@@ -17,6 +18,7 @@
         --clr-3: #fff;
         --clr-4: #fff;
         --clr-5: #A4BAF9;
+        --clr-6:#5B84F0;
     --background: var(--clr-dark);
     }
 
@@ -253,7 +255,6 @@ h5 {
     font-weight: 700;
     color: var(--clr-3);
     margin-top: 25px;
-    
 }
 
 .info-services {
@@ -373,7 +374,7 @@ h5 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 200px; /* Location of the box */
+    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -389,22 +390,47 @@ h5 {
     margin: auto;
     padding: 20px;
     border-radius: 20px;
-    width: 50%;
+    width: 40%;
   }
   
   .info-user {
     margin-top: 20px;
     width: 450px;
+    margin-right: -15px;
   }
   
   .info-user img {
-    border-radius: 100%;
+    width: 180px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--clr-3);
+    margin-top: 25px;
+  }
+
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--clr-4);
+    margin-top: 15px;
   }
   
   .text {
     margin-top: 30px;
     font-family: "Nunito", sans-serif;
-    color:var(--clr-4);
+    color: var(--clr-4);
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
@@ -412,8 +438,9 @@ h5 {
 
 .personal-social a {
     margin: 15px;
-    color: var(--clr-2);
+    color: var(--clr-5);
     font-size: 40px;
+    transition-duration: 0.2s;
  }
  
  .box-personal-social {
@@ -422,24 +449,24 @@ h5 {
  
  .personal-social a:hover {
      color: var(--clr-1);
-     transition-duration: 0.2s;
  }
   
   /* The Close Button */
   .close, .close2, .close3 {
-    color:#707070;
+    color: var(--clr-4);
     float: right;
     font-size: 28px;
     font-weight: bold;
-    transition: ease 0.25s all;
   }
   
   .close:hover, .close2:hover, .close3:hover, .close:focus, .close2:focus, .close3:focus {
-    -webkit-transform: rotateZ(180deg);
-    transform: rotateZ(180deg);
-    color:#3C3C3C;
+    color: var(--clr-6);
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .modal-content span {
+    transition-duration: 0.2s;
   }
 
 
@@ -465,9 +492,12 @@ h5 {
     margin-top: 40px;
 }
 
+.boxcontact i {
+    transition-duration: 0.2s;
+}
+
 .boxcontact i:hover {
     color: var(--clr-1);
-    transition-duration: 0.2s;
     cursor: pointer;
 }
 
@@ -557,29 +587,35 @@ footer p {
 
 @media screen and (max-width: 415px) {
     .info-user img {
-        width: 120px;
-        height: 120px;
-      }
+        width: 150px;
+        height: 150px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
     .text {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 20px;
     }
 
     .personal-social a {
-        margin: 5px;
+        margin: 10px;
      }
 
     .box-personal-social {
-        margin-top: 15px;
-    }
-
-    .modal {
-        padding-top: 150px;
+        margin-top: 10px;
     }
 
     .modal-content {
-        width: 60%;
+        width: 70%;
 }
 
 @media screen and (max-width: 320px) {
@@ -603,12 +639,23 @@ footer p {
         height: 200px;
     }
 
-    .modal {
-        padding-top: 100px;
+    .info-user img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    h4 {
+        font-size: 14px;
+        margin-top: 10px;
     }
 
     .personal-social a {
-        margin: 5px;
-        font-size: 25px;
+        margin: 10px;
+        font-size: 32px;
      }
 }
