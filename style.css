@@ -294,6 +294,10 @@ h5 {
     border-radius: 20px;
 }
 
+.project-img img {
+    width: 450px;
+}
+
 .box-text {
     padding: 0 30px;
 }
@@ -574,6 +578,10 @@ footer p {
         width: 320px;
         height: 250px;
     }
+
+    .project-img img {
+        width: 370px;
+    }
  
     .boxcontact {
         margin: 10px;
@@ -637,6 +645,10 @@ footer p {
     .project-img {
         width: 240px;
         height: 200px;
+    }
+
+    .project-img img {
+        width: 250px;
     }
 
     .info-user img {
