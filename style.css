@@ -342,6 +342,17 @@ h5 {
     cursor: pointer;
 }
 
+.card-user {
+    width: 200px;
+}
+
+.card-user img {
+     width: 150px;
+}
+
+.card-user h3 {
+   font-size: 20px;
+}
 
 
 /* POP-UP */
@@ -454,6 +465,7 @@ h5 {
  .personal-social a:hover {
      color: var(--clr-1);
  }
+
   
   /* The Close Button */
   .close, .close2, .close3 {
