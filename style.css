@@ -292,10 +292,22 @@ h5 {
     height: 300px;
     background-color: var(--clr-2);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.project-img img {
-    width: 350px;
+.mac {
+    width: 460px;
+}
+
+.iphone {
+    width: 360px;
+}
+
+.ipad {
+    width: 460px;
 }
 
 .box-text {
@@ -591,7 +603,15 @@ footer p {
         height: 250px;
     }
 
-    .project-img img {
+    .mac {
+        width: 350px;
+    }
+
+    .ipad {
+        width: 360px;
+    }
+
+    .iphone {
         width: 300px;
     }
  
@@ -659,7 +679,15 @@ footer p {
         height: 200px;
     }
 
-    .project-img img {
+    .mac {
+        width: 280px;
+    }
+
+    .ipad {
+        width: 300px;
+    }
+
+    .iphone {
         width: 230px;
     }
 
