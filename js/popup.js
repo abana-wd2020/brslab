@@ -16,7 +16,7 @@ card.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
-  document.body.style.overflow = "scroll";
+  document.body.style.overflowY = "scroll";
 }
 
 
@@ -39,7 +39,7 @@ span.onclick = function() {
  // When the user clicks on <span> (x), close the modal2
  span2.onclick = function() {
    modal2.style.display = "none";
-   document.body.style.overflow = "scroll";
+   document.body.style.overflowY = "scroll";
  }
  
 
@@ -61,7 +61,7 @@ span.onclick = function() {
  // When the user clicks on <span> (x), close the modal3
  span3.onclick = function() {
    modal3.style.display = "none";
-   document.body.style.overflow = "scroll";
+   document.body.style.overflowY = "scroll";
  }
  
  // When the user clicks anywhere outside of the modal, close it3
@@ -70,6 +70,6 @@ span.onclick = function() {
      modal.style.display ="none";
      modal2.style.display = "none";
      modal3.style.display = "none";
-     document.body.style.overflow = "scroll";
+     document.body.style.overflowY = "scroll";
    }
  }
